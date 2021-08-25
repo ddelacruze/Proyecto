@@ -1,0 +1,60 @@
+@charset "utf-8";
+*{
+	margin: 0;
+	padding: 0;
+}
+body{	
+ 	background-color: #e6e6e6;
+}
+header{
+	width:90%;
+	margin: 20px auto;
+	
+}
+h1, h2 {
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif"
+		
+}
+p{font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif" }
+
+.menu{
+	width: 100%;
+	background: #528FD5;
+	list-style: none;
+	margin: 20px auto;
+	padding: 0;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
+}
+.menu li{
+	display: inline-block;
+	
+}
+.menu li a{
+		padding: 15px 30px;
+	    display: inline-block;
+	    color: #fff;
+	    text-decoration: none;
+	
+	 font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif"
+
+}
+
+.menu li a:hover{
+	background: #ccc;
+	color: #000;
+	
+}
+
+.subtex2{
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	text-shadow: 3px 1px #ffff ;
+}
+footer{
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	text-shadow: 2px ;	
+	background: #000;
+	color:#fff;
+	clear: both;
+	padding: 10px 0px;
+	text-align: center;
+}

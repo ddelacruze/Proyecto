@@ -1,0 +1,88 @@
+@charset "utf-8";
+*{
+	margin: 0;
+	padding: 0;
+}
+body{	
+ 	background-color: #e6e6e6;
+}
+header, .main, footer {
+	background:#fff;
+	width:90%;
+	max-width: 1000px;
+	margin: 20px auto;
+	
+}
+h2, h3 {
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif"
+}
+.main .articles{
+	width: 68.5%;
+	margin-right: 1.5%;
+	float:left;	
+}
+.main .articles article{
+   	padding: 20%;
+	background: #fff;
+	margin-bottom: 20px;
+	
+}
+
+aside{
+	width: 30%;
+	background: #ff8000;
+	float: left;
+	padding: 20px;
+	box-sizing: border-box;
+}
+.video{
+	width: 30%;
+	float: left;
+	padding: 20px;
+	box-sizing: border-box;
+}
+.mapa{
+	width: 30%;
+	float: left;
+	padding: 20px;
+	box-sizing: border-box;
+}
+footer{
+	background: #000;
+	color:#fff;
+	clear: both;
+	padding: 10px 0px;
+	text-align: center;
+}
+.menu{
+	width: 100%;
+	background: #528FD5;
+	list-style: none;
+	margin: 20px auto;
+	padding: 0;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
+}
+.menu li{
+	display: inline-block;
+	
+}
+.menu li a{
+		padding: 15px 30px;
+	    display: inline-block;
+	    color: #fff;
+	    text-decoration: none;
+	
+	 font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif"
+
+}
+
+.menu li a:hover{
+	background: #ccc;
+	color: #000;
+	
+}
+
+.subtex2{
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	text-shadow: 3px 1px #ffff ;
+}
